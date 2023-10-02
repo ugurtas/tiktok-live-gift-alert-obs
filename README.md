@@ -1,5 +1,7 @@
 # TikTok Live Gift Alert: UGUR TAS
 
+## If you liked the project, please don't forget to star it :)
+
 This Node.js application is designed to display TikTok live gifts in real-time during livestreams. It utilizes the TikTok Live Connector to establish a seamless connection with your TikTok account, and displays a full-screen notification indicating the sender's name and the type and quantity of the gift they've sent.
 
 ## How It Works
@@ -53,14 +55,29 @@ This project is not affiliated with TikTok.
 Would you like to buy me a coffee or Turkish tea?
 
 Unfortunately, PayPal is not available as I reside in Turkey.
+
 If you'd like to send support in cryptocurrency, here are the details:
+
 BTC: 15XwaiXtubQMfCkdk7REYjsVraCTGVUwzA - Network: BTC
+
 ETH: 0x82171bfe20e5d9c55f57216bca4998bc38b1ee59 - Network: BEP20
+
 SHIB: 0x82171bfe20e5d9c55f57216bca4998bc38b1ee59 - Network: ERC20
+
 DOGE: D8JdZmR8LMXdFvtug4YGQ61gzUqTGbZqGM - Network: DOGE
 
 
 
+![gorseller](gorseller/0-protasarim.net..PNG)
+
+![gorseller](gorseller/1-protasarim.net.PNG)
+![gorseller](gorseller/2-protasarim.net4.PNG)
+![gorseller](gorseller/3-protasarim.net.PNG)
+![gorseller](gorseller/5-protasarim.net.PNG)
+![gorseller](gorseller/6-protasarim.net..PNG)
+![gorseller](gorseller/7-protasarim.net..PNG)
+
+If you liked the project, please don't forget to star it :) 
 ------------
 ## TR
 
@@ -107,14 +124,20 @@ Katkılarınızı bekliyoruz! İyileştirmeler veya yeni özellikler için fikir
 ## Açıklama
 Bu proje, TikTok ile bağlantılı değildir.
 
-
+##projeyi beğendiyseniz lütfen yıldız vermeyi unutmayın :)
 
 ## Projeyi Destekle
 Bana bir kahve veya Türk çayı ısmarlamak ister misin?
 
 Ne yazık ki, Türkiye'de yaşadığım için PayPal kullanılmıyor.
+
 Kripto para ile destek göndermek istersen işte detaylar:
+
 BTC: 15XwaiXtubQMfCkdk7REYjsVraCTGVUwzA - Ağ Türü: BTC
+
 ETH: 0x82171bfe20e5d9c55f57216bca4998bc38b1ee59 - Ağ Türü: BEP20
+
 SHIB: 0x82171bfe20e5d9c55f57216bca4998bc38b1ee59 - Ağ Türü: ERC20
+
 DOGE: D8JdZmR8LMXdFvtug4YGQ61gzUqTGbZqGM - Ağ Türü: DOGE
+
