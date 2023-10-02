@@ -124,7 +124,7 @@ Katkılarınızı bekliyoruz! İyileştirmeler veya yeni özellikler için fikir
 ## Açıklama
 Bu proje, TikTok ile bağlantılı değildir.
 
-
+projeyi beğendiyseniz lütfen yıldız vermeyi unutmayın :)
 
 ## Projeyi Destekle
 Bana bir kahve veya Türk çayı ısmarlamak ister misin?
