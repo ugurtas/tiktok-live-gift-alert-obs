@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ugur Tas - Tiktok Gift Progress</title>
+</head>
+<body>
+    <span id="hediyegonder"></span>
+
+    <script>
+
+
+
+        // WebSocket connection to your Node.js server
+        const socket = new WebSocket("ws://localhost:3000");
+
+        // Handle messages from the server
+        socket.addEventListener("message", (event) => {
+
+            const data = JSON.parse(event.data);
+            console.log(
+                data
+            );
+
+
+            if (data.type === "UGURTAS") {
+
+
+               // const tiktokUsername = document.getElementById("tiktokUsername");
+               // tiktokUsername.innerHTML = data.tiktokUsername;
+
+               // const giff = document.getElementById("giff");
+              //  giff.innerHTML = data.giff;
+
+              //  const msg = document.getElementById("msg").value = data.giff + data.giffid + "<img src='/gifler/" + data.giffid + ".png'>";
+
+
+                /*   //getten gelen değeri alıyor buras
+                   const queryString = window.location.search;
+                   console.log(queryString);
+                   const msg = document.getElementById("msg").value = queryString+"-----"+data.giff + data.giffid + "<img src='/gifler/" + data.giffid + ".png'>";
+                   */
+                // alert(queryString);
+
+              //  myAlert(`<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'><h1 style="text-align: center;font-family: 'Oswald', Helvetica, sans-serif;font-size: 80px;transform: skewY(-10deg);letter-spacing: 4px;word-spacing: -8px;color: tomato;text-shadow: -1px -1px 0 firebrick, -2px -2px 0 firebrick, -3px -3px 0 firebrick, -4px -4px 0 firebrick, -5px -5px 0 firebrick, -6px -6px 0 firebrick, -7px -7px 0 firebrick, -8px -8px 0 firebrick, -30px 20px 40px dimgrey ">` + data.gonderen + `   ` + "<br> " + data.adet + ` </h1><img src='http://localhost:3000/gifler/`+data.giffid+`.png'>`,`alert!`,500,500)
+
+
+                
+
+                const hediyegonder = document.getElementById("hediyegonder");
+                hediyegonder.innerHTML = `<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'><center><h1 style="text-align: center;font-family: 'Oswald', Helvetica, sans-serif;font-size: 80px;transform: skewY(-10deg);letter-spacing: 4px;word-spacing: -8px;color: tomato;text-shadow: -1px -1px 0 firebrick, -2px -2px 0 firebrick, -3px -3px 0 firebrick, -4px -4px 0 firebrick, -5px -5px 0 firebrick, -6px -6px 0 firebrick, -7px -7px 0 firebrick, -8px -8px 0 firebrick, -30px 20px 40px dimgrey ">` + data.gonderen + `   ` + "<br> " + data.adet + ` <img src='http://localhost:3000/gifler/` + data.giffid + `.png'></h1></center>`;
+
+            }
+        });
+    </script>
+
+
+    <script>
+
+
+
+
+
+        function myAlert(msg, title, width, height, timeout) {
+
+            //msg = document.querySelector("#msg").value;
+            //title = document.querySelector("#title").value;
+            //width = document.querySelector("#width").value;
+            //height = document.querySelector("#height").value;
+            //timeout = document.querySelector("#timeout").value;
+            var timer = Date.now() / 1000 + timeout / 1000;
+            var myWindow = window.open("", "", `width=${width},height=${height},left=${(window.outerWidth / 2 - width / 2)},top=0`);
+            myWindow.document.write(`<center id="msg">` + msg + `</center>`);
+            var int = setInterval(function () {
+                if (timer - Date.now() / 1000 > 0) {
+                    myWindow.document.getElementById('msg').innerText = msg + ", this will close in " + Math.ceil(timer - Date.now() / 1000) + " seconds";
+                } else {
+                    clearInterval(int);
+                }
+            }, 0)
+            myWindow.document.title = title;
+            setTimeout(function () {
+                myWindow.close();
+            }, timeout || 5000)
+        }
+    </script>
+
+</body>
+</html>
