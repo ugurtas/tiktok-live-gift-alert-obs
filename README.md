@@ -53,10 +53,15 @@ This project is not affiliated with TikTok.
 Would you like to buy me a coffee or Turkish tea?
 
 Unfortunately, PayPal is not available as I reside in Turkey.
+
 If you'd like to send support in cryptocurrency, here are the details:
+
 BTC: 15XwaiXtubQMfCkdk7REYjsVraCTGVUwzA - Network: BTC
+
 ETH: 0x82171bfe20e5d9c55f57216bca4998bc38b1ee59 - Network: BEP20
+
 SHIB: 0x82171bfe20e5d9c55f57216bca4998bc38b1ee59 - Network: ERC20
+
 DOGE: D8JdZmR8LMXdFvtug4YGQ61gzUqTGbZqGM - Network: DOGE
 
 
@@ -113,8 +118,14 @@ Bu proje, TikTok ile bağlantılı değildir.
 Bana bir kahve veya Türk çayı ısmarlamak ister misin?
 
 Ne yazık ki, Türkiye'de yaşadığım için PayPal kullanılmıyor.
+
 Kripto para ile destek göndermek istersen işte detaylar:
+
 BTC: 15XwaiXtubQMfCkdk7REYjsVraCTGVUwzA - Ağ Türü: BTC
+
 ETH: 0x82171bfe20e5d9c55f57216bca4998bc38b1ee59 - Ağ Türü: BEP20
+
 SHIB: 0x82171bfe20e5d9c55f57216bca4998bc38b1ee59 - Ağ Türü: ERC20
+
 DOGE: D8JdZmR8LMXdFvtug4YGQ61gzUqTGbZqGM - Ağ Türü: DOGE
+
